@@ -1,0 +1,5 @@
+.premium{
+    height: 100vh;
+    background: yellow;
+    scroll-snap-align: center;
+}
