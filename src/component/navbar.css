@@ -2,3 +2,10 @@
     display: flex;
     justify-content: center;
 }
+
+.container{
+    width: 1400px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+}
