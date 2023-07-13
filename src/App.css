@@ -8,6 +8,7 @@
   scroll-snap-type:y mandatory;
   scroll-behavior: smooth;
   overflow-y: auto;
+  color: #fff;
   scrollbar-width: none;
   &::-webkit-scrollbar{
     display: none;
