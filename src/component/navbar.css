@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .links{
@@ -19,8 +19,11 @@
 
 ul{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     list-style: none;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: hsla(0,0%,100%,.5);
 }
 
 .icons{
@@ -30,7 +33,7 @@ ul{
 }
 
 .button{
-    width: 100px;
+    width: 150px;
     padding: 10px;
     background-color: var(--primary-text-color);
     color: #fff;

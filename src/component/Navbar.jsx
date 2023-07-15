@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className="container">
+            <h1>SILICON ADDIS</h1>
             <div className="links">
-                <h1>SILICON ADDIS</h1>
                 <ul>
                     <li>Home</li>
                     <li>Courses</li>
@@ -13,9 +13,7 @@ const Navbar = () => {
                     <li>Blog</li>
                 </ul>
             </div>
-            <div className="icons">
-                <button className="button">Hire Now</button>
-            </div>
+            <button className="button">Get Started</button>
         </div>
     </div>
   )
