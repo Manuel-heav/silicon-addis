@@ -3,10 +3,15 @@
   margin: 0;
   padding: 0;
 }
+
+:root{
+  --primary-text-color: #FB2576;
+  --primary-background-color: #000000;
+}
 .app{
   font-family: 'Inter', sans-serif;
   height: 100vh;
-  background-color: #000000;
+  background-color: var(--primary-background-color);
   scroll-snap-type:y mandatory;
   scroll-behavior: smooth;
   overflow-y: auto;

@@ -4,3 +4,31 @@
     height: 100vh;
     scroll-snap-align: center;
 }
+
+.showcase__main__container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase__main__text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -.025em;
+    color: rgb(255 255 255/1);
+}
+.highlighted{
+    color: var(--primary-text-color) !important;
+}
+.showcase__main__btn{
+    width: 150px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: var(--primary-text-color);
+    color: #fff;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
