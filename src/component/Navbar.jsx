@@ -8,9 +8,9 @@ const Navbar = () => {
                 <h1>SILICON ADDIS</h1>
                 <ul>
                     <li>Home</li>
-                    <li>Studio</li>
-                    <li>Works</li>
-                    <li>Contact</li>
+                    <li>Courses</li>
+                    <li>Youtube</li>
+                    <li>Blog</li>
                 </ul>
             </div>
             <div className="icons">

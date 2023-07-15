@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700;800&display=swap');
 *{
   margin: 0;
   padding: 0;
 }
 .app{
+  font-family: 'Inter', sans-serif;
   height: 100vh;
-  background-color: rebeccapurple;
+  background-color: #000000;
   scroll-snap-type:y mandatory;
   scroll-behavior: smooth;
   overflow-y: auto;
@@ -13,7 +15,7 @@
   &::-webkit-scrollbar{
     display: none;
   }
-  background-image: url("../public/img/bg.jpeg");
+  /* background-image: url("../public/img/bg.jpeg"); */
   background-size: cover;
   background-position: center;
 }

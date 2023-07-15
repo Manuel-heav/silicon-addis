@@ -3,7 +3,7 @@ import './premium.css'
 const Premium = () => {
   return (
     <div className='premium'>
-        Premium
+        <img src="/public/img/mage.webp" alt="" />
     </div>
   )
 }
