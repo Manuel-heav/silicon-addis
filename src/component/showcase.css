@@ -18,6 +18,13 @@
     letter-spacing: -.025em;
     color: rgb(255 255 255/1);
 }
+
+.showcase__main__text p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: hsla(0,0%,100%,.5);
+    margin-top: 10px;;
+}
 .highlighted{
     color: var(--primary-text-color) !important;
 }
