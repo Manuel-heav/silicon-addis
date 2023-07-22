@@ -13,7 +13,10 @@ const Navbar = () => {
                     <li>Blog</li>
                 </ul>
             </div>
-            <button className="button">Get Started</button>
+            <div>
+              <button className="button btn__login">Login</button>
+              <button className="button btn__signup">Sign Up</button>
+            </div>
         </div>
     </div>
   )

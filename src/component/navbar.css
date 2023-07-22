@@ -25,6 +25,14 @@ ul{
     line-height: 1.75rem;
     color: hsla(0,0%,100%,.5);
 }
+ul li{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ul li:hover{
+    color: #fff;
+}
 
 .icons{
     display: flex;
@@ -33,11 +41,33 @@ ul{
 }
 
 .button{
-    width: 150px;
+    width: 100px;
     padding: 10px;
     background-color: var(--primary-text-color);
     color: #fff;
     border: none;
+    font-size: 16px;
     border-radius:5px;
     cursor: pointer;
+}
+
+.btn__signup{
+    background-color: var(--primary-text-shade);
+    border: 1px solid var(--primary-text-color);
+    transition: 0.5s;
+}
+
+.btn__signup:hover{
+    background-color: var(--primary-text-color);
+}
+
+.btn__login{
+    border: none;
+    background-color: transparent;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.btn__login:hover{
+    opacity: 1;
 }

@@ -4,9 +4,12 @@
   padding: 0;
 }
 
+
+/* https://colors.artyclick.com/color-shades-finder */
 :root{
   --primary-text-color: #FB2576;
-  --primary-background-color: #000000;
+  --primary-text-shade: #4B0B24;
+  --primary-background-color: #030117;
 }
 .app{
   font-family: 'Inter', sans-serif;
