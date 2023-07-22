@@ -15,7 +15,7 @@ const Showcase = () => {
           </div>
 
           <div className="showcase__image">
-            <img src="/img/moon.png" alt="" />
+            <img src="/img/img1.svg" alt="" />
           </div>
         </div>
         {/* <img src="/img/moon.png" alt="" /> */}
