@@ -12,6 +12,12 @@
     padding: 20px 0;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .links{
     display: flex;
     align-items: center;
@@ -71,4 +77,59 @@ ul li:hover{
 
 .btn__login:hover{
     opacity: 1;
+}
+.mobile_nav{
+    display: none;
+}
+.open, .close{
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    nav{
+        height: 100vh;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left:0;
+      z-index: 100;  
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(86deg, rgba(2,0,36,1) 26%, rgba(10,6,46,1) 55%, rgba(3,1,23,1) 84%, rgba(3,1,23,1) 100%);
+      transition: top 0.7s ease;
+      display: none;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    nav ul li{
+        margin-bottom: 30px;
+        font-size: 1.3rem;
+    }
+    .links, .nav__btn__container{
+        display: none;
+    }
+    .open{
+        display: block;
+    }
+    .close{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .mobile_nav button{
+        display: block;
+        margin-top: 10px;
+        font-size: 1.2rem;
+        width: 100px;
+    }
 }
