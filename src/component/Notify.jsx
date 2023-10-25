@@ -6,10 +6,10 @@ const Notify = () => {
     <div className="notify">
         <div className="notify__container">
             <h1>Notify Me Of New Courses</h1>
-            <div className="notify_input_container">
-                <input type="text" />
-                <button>Notify</button>
-            </div>
+            <form className="notify_input_container">
+                <input type="email" placeholder='Enter Email...' />
+                <button type='submit'>Notify</button>
+            </form>
         </div>
     </div>
   )

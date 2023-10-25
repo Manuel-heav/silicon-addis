@@ -17,5 +17,56 @@
 }
 .notify_input_container{
     display: flex;
+}
 
+.notify_input_container input{
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    width: 290px;
+}
+.notify_input_container input:focus{
+    outline: none;
+}
+
+.notify_input_container button{
+    width: 100px;
+    padding: 10px;
+    background-color: var(--primary-text-color);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius:5px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+
+.notify_input_container button:hover{
+    background-color: var(--primary-text-shade);
+}
+
+@media screen and (max-width: 992px) {   
+       .notify{
+        height: 40vh;
+        }
+        .notify h1{
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    .notify__container{
+            display: block;    
+        }
+    .notify_input_container{
+         display: block;
+    }
+    .notify_input_container input{
+        height: 40px;
+        font-size: 0.95rem;
+    }
+    .notify_input_container button{
+        margin: auto;
+        margin-top: 20px;
+    }
 }
