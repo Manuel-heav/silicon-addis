@@ -81,36 +81,77 @@ ul li:hover{
 .mobile_nav{
     display: none;
 }
-.open, .close{
-    display: none;
-    cursor: pointer;
+
+.open{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+  font-size: 36px;
+  color: #fff;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 992px) {
-    nav{
-      display: none;
-      height: 100vh;
-      position: fixed;
-      top: 0;
-      right: 0;
-      left:0;
-      z-index: 100;  
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(86deg, rgba(2,0,36,1) 26%, rgba(10,6,46,1) 55%, rgba(3,1,23,1) 84%, rgba(3,1,23,1) 100%);
-      transition: top 0.7s ease;
-    }
-    /* nav ul{
-        display: block;
-        position: absolute;
-        top: 20%;
-        left: 40%;
-        width: 100vw;
-        height: 100vh;
-      z-index: 1000;  
-    } */
+.close{
+position: fixed;
+  z-index: 999;
+  top: 5;
+  right: 0;
+  width: 30px;
+  margin-right: 20px;
+  height: 30px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+  font-size: 50px;
+  color: #fff;
+  cursor: pointer;
+}
 
+.mobile-menu {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(86deg, rgba(2,0,36,1) 26%, rgba(10,6,46,1) 55%, rgba(3,1,23,1) 84%, rgba(3,1,23,1) 100%);
+    transition: 0.3s;
+  }
+  
+  .mobile-menu a {
+    padding: 10px 0px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+@media screen and (max-width: 992px) {   
+    .topnav {
+        justify-content: flex-start;
+      }
+
+      .open{
+        display: block;
+      }
+    
+      .close {
+        display: block;
+      }
+    
+      .menu {
+        display: flex;
+        align-items: center;
+        transition: 0.5s;
+      }
     nav ul li{
         margin-bottom: 30px;
         font-size: 1.3rem;
@@ -118,19 +159,15 @@ ul li:hover{
     .links, .nav__btn__container{
         display: none;
     }
-    .open{
+    
+     button{
         display: block;
-    }
-    .close{
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-    .mobile_nav button{
-        display: block;
-        margin-top: 10px;
+        margin-top: 20px;
         font-size: 1.2rem;
         width: 100px;
+    }
+
+    .btn__login{
+        display: none;
     }
 }

@@ -96,7 +96,7 @@
     .latest{
         display: block;
         /* scroll-snap-align: none; */
-        height: 120vh;
+        height: 130vh;
     }
     .latest__container{
         display: block;
