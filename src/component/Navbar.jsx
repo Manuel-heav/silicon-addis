@@ -7,7 +7,7 @@ const Navbar = () => {
   const openMenu = (e) => {
     e.preventDefault();
     const nav = document.querySelector('nav');
-    nav.style.display = 'flex'
+    nav.style.display = 'block'
   }
 
   const closeMenu = (e) => {
@@ -21,6 +21,7 @@ const Navbar = () => {
             <h1>SILICON ADDIS</h1>
             <GiHamburgerMenu className="open" onClick={openMenu}/>
             <nav>
+            <AiOutlineClose className="close" onClick={closeMenu}/>
             <div className="links">
                 <ul>
                     <li>Home</li>

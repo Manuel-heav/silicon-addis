@@ -88,7 +88,8 @@ ul li:hover{
 
 @media screen and (max-width: 992px) {
     nav{
-        height: 100vh;
+      display: none;
+      height: 100vh;
       position: fixed;
       top: 0;
       right: 0;
@@ -99,16 +100,16 @@ ul li:hover{
       align-items: center;
       background: linear-gradient(86deg, rgba(2,0,36,1) 26%, rgba(10,6,46,1) 55%, rgba(3,1,23,1) 84%, rgba(3,1,23,1) 100%);
       transition: top 0.7s ease;
-      display: none;
     }
-    nav ul{
+    /* nav ul{
         display: block;
         position: absolute;
         top: 20%;
         left: 40%;
         width: 100vw;
         height: 100vh;
-    }
+      z-index: 1000;  
+    } */
 
     nav ul li{
         margin-bottom: 30px;

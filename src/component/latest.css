@@ -83,6 +83,39 @@
     }
   }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 780px) {
+    .latest{
+        display: block;
+    }
+    .latest__container{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 596px) {
+    .latest{
+        display: block;
+        /* scroll-snap-align: none; */
+        height: 120vh;
+    }
+    .latest__container{
+        display: block;
+    }
+    .right__cards{
+        display: block;
+    }
+    .card{
+        margin-top: 20px;
+    }
+    .card__icon{
+        font-size: 60px;
+    }
+    .latest__container__left h1{
+        font-size: 2rem;
+    }
+
+    .latest__container__left p{
+        font-size: 1rem;
+    }
 
 }
