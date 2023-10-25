@@ -22,7 +22,7 @@ ul{
     display: flex;
     gap: 40px;
     list-style: none;
-    font-size: 1.125rem;
+    font-size: 1.025rem;
     line-height: 1.75rem;
     color: hsla(0,0%,100%,.5);
 }

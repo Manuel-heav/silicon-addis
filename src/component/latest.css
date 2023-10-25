@@ -9,7 +9,7 @@
 }
 
 .latest__container__left h1{
-    font-size: 3rem;
+    font-size: 2.3rem;
     font-weight: 800;
     letter-spacing: -.025em;
     color: rgb(255 255 255/1);
@@ -17,7 +17,7 @@
 }
 
 .latest__container__left p{
-    font-size: 1.125rem;
+    font-size: 1.025rem;
     line-height: 1.75rem;
     color: hsla(0,0%,100%,.5);
     margin-top: 10px;;
@@ -28,16 +28,17 @@
     background-color: rgba(17, 25, 40, 0.75);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-    padding: 40px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 1s;
     cursor: pointer;
-    line-height: 40px;
+    line-height: 30px;
     color: #e1e1e4;
+    height: 50%;
+    font-size: .63rem;
 }
-
 
 .card:hover{
     box-shadow: 1px -1px 17px -5px rgba(255,255,255,0.75);
@@ -49,6 +50,7 @@
         animation: spin 3s infinite;
         animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
         font-size: 90px;
+        margin-left: 20px;
 }
 
 .latest__container{
@@ -59,18 +61,19 @@
 
 .right__cards{
     display: grid;
-    gap: 20px;
+    gap: 18px;
     grid-template-columns: 1fr 1fr;
 }
 
 
 .latest__container__left{
-    flex: 3;
+    flex: 4;
 }
 
 .latest__container__right{
     flex: 4;
 }
+
 @keyframes spin {
     0% {
       transform: rotate(0deg);
@@ -79,3 +82,7 @@
       transform: rotate(360deg);
     }
   }
+
+@media screen and (max-width: 992px) {
+
+}

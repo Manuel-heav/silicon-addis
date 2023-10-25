@@ -13,14 +13,14 @@
 }
 
 .showcase__main__text h1{
-    font-size: 3.75rem;
+    font-size: 2.5rem;
     font-weight: 800;
     letter-spacing: -.025em;
     color: rgb(255 255 255/1);
 }
 
 .showcase__main__text p{
-    font-size: 1.125rem;
+    font-size: 1.085rem;
     line-height: 1.75rem;
     color: hsla(0,0%,100%,.5);
     margin-top: 10px;;
@@ -41,8 +41,14 @@
 }
 
 .showcase__image img{
-    height: 400px;
+    height: 350px;
 }
 .showcase__main__btn{
 
+}
+
+@media screen and (max-width: 700px) {
+    .showcase__image img{
+        display: none;
+    }
 }
