@@ -1,7 +1,8 @@
 import React from 'react';
 import './showcase.css';
 import Navbar from './Navbar';
-
+import Lottie from 'lottie-react';
+import animationData from '../assets/animation1.json'
 
 const Showcase = () => {
   return (
@@ -18,6 +19,7 @@ const Showcase = () => {
 
           <div className="showcase__image">
             <img src="/img/img1.svg" alt="" />
+            {/* <Lottie animationData={animationData} className='img'/> */}
           </div>
         </div>
         {/* <img src="/img/moon.png" alt="" /> */}
