@@ -7,7 +7,6 @@ const Popular = () => {
     <div className='popular'>
         <div className="content__container">
           <div className="text_container">
-            <p>Lorem ipsum dolor sit amet.</p>
             <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, iure.</h1>
             <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore sequi suscipit, blanditiis repellendus ea earum.</h4>
             <div className="link_btn_container">

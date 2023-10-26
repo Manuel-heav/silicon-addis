@@ -9,8 +9,8 @@ function App() {
     <div className="app">
       <Showcase />
       <Latest />
-      <Notify />
       <Popular />
+      <Notify />
       <Premium />
     </div>
   );
