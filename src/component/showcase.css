@@ -47,11 +47,8 @@
 
 }
 
-.img{
-}
-
 @media screen and (max-width: 700px) {
-    .img{
+    .showcase__image img{
         display: none;
     }
 }
