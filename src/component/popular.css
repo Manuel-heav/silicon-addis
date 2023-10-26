@@ -5,7 +5,8 @@
     margin-top: 20px;
 }
 
-.youtube__container{
+.content__container{
+    margin-top: 60px;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(17, 25, 40, 0.75);
@@ -18,14 +19,11 @@
     cursor: pointer;
     line-height: 30px;
     color: #e1e1e4;
-    height: 50%;
+    height: 60%;
     font-size: .63rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
     overflow: hidden;
 }
-.youtube__container:before{
+.content__container:before{
         content: '';
         position: absolute;
         width: 100%;
@@ -34,12 +32,28 @@
         animation: rotate 10s linear infinite;
 }
 
-.youtube__container::after{
+.content__container::after{
     content: '';
     position: absolute;
     background-color: #0e1538;
     inset: 1.3px;
     border-radius: 16px;
+}
+
+.content__container:hover{
+    transform: scale(1.02);
+}
+
+.text_container{
+    z-index: 100;
+}
+
+.img_container{
+    z-index: 100;
+}
+
+.img_container img{
+    height: 400px;
 }
 
 @keyframes rotate {
