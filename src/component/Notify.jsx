@@ -3,6 +3,7 @@ import "./notify.css"
 
 const Notify = () => {
   return (
+    <>
     <div className="notify">
         <div className="notify__container">
             <h1>Notify Me Of New Courses</h1>
@@ -12,6 +13,11 @@ const Notify = () => {
             </form>
         </div>
     </div>
+
+        <div className="donation">
+          Donation
+        </div>
+    </>
   )
 }
 
