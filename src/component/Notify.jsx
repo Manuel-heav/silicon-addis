@@ -15,7 +15,14 @@ const Notify = () => {
     </div>
 
         <div className="donation">
-          Donation
+          <div className="donation_container">
+              <h1>Buy me a coffee</h1>
+              <p>Support my channel and my cause by making a donation.</p>
+              <a href="">50 ETB</a>
+              <a href="">100 ETB</a>
+              <a href="">1000 ETB</a>
+              <a href="">5000 ETB</a>
+          </div>
         </div>
     </>
   )
